@@ -1,0 +1,40 @@
+
+#detailLeft { float:left; overflow:hidden; width:65%; line-height:1.2; font-family:'supermarket'; }
+#detailRight { float:right; overflow:hidden; width:35%; }
+
+#baseContact { font-size:1.2em; color:#222; }
+
+/* ความกว้าง ไม่เกิน */
+@media screen and (max-width: 500px)
+{
+	#detailLeft { width:100%; clear:both; }
+	#detailRight { width:100%; clear:both; }
+	#station { margin-top:20px; }
+}
+
+/* ความกว้าง ระหว่าง */
+@media screen and (min-width: 501px) and (max-width: 1023px)
+{
+	#detailLeft { width:100%; clear:both; }
+	#detailRight { width:100%; clear:both; }
+	#map { float:left; overflow:hidden; width:50%; }
+	#station { float:right; overflow:hidden; width:50%; padding-left:30px; }
+}
+
+/* ความกว้าง ระหว่าง */
+@media screen and (min-width: 1024px) and (max-width: 1199px)
+{
+#detailLeft { }
+#detailRight { padding-left:100px; }
+#baseContact { font-size:1.5em; }
+#station { margin-top:20px; }
+}
+
+/* ความกว้าง ไม่น้อยกว่า */
+@media screen and (min-width: 1200px)
+{
+#detailLeft { }
+#detailRight { padding-left:100px; }
+#baseContact { font-size:1.5em; }
+#station { margin-top:20px; }
+}

@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: 'supermarket';
+    src: url('supermarket/supermarket.eot');
+    src: url('supermarket/supermarket.eot?#iefix') format('embedded-opentype'),
+         url('supermarket/supermarket.woff2') format('woff2'),
+         url('supermarket/supermarket.woff') format('woff'),
+         url('supermarket/supermarket.ttf') format('truetype'),
+         url('supermarket/supermarket.svg#supermarket') format('svg');
+}

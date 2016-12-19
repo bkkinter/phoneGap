@@ -1,0 +1,86 @@
+
+#mainContent { margin-top:30px; }
+.row { margin-left:0px; margin-right:0px; }
+.line { clear:both;  }
+
+.courseList { padding:15px; margin-bottom:30px; background-color:#EEE; cursor:pointer; border:2px solid #EEE; }
+.courseList:hover { background-color:#FFF; border:2px dotted #F99; }
+
+#headTitle1, #headTitle2 { font-family:'supermarket'; }
+
+#headTitle1 { float:left; font-size:40px; line-height:1; margin-left:120px; margin-right:20px; margin-top:10px; overflow:hidden; }
+#headTitle2 { float:left; font-size:40px; line-height:1; margin-top:10px; overflow:hidden; }
+
+/* ความกว้าง ไม่เกิน */
+@media screen and (max-width: 500px)
+{
+	#headTitle1 { float:left; font-size:2.2em; line-height:1; clear:both; margin-top:0px; }
+ 	#headTitle2 { float:left; font-size:1.6em; line-height:1; margin-left:120px; margin-top:0px; }
+	#headIcon { display:none; }
+	
+	.productArea { width:100%; }
+	.productTN { width:100%; margin-bottom:20px; clear:both; }
+	.productTitle { float:left; color:#000; font-size:2em; line-height:1.4; overflow:hidden; }
+	.productHelp { float:left; color:#333; font-size:1.3em; line-height:1.2; margin-top:10px; overflow:hidden; }
+	
+	.productTN2 { width:100%; margin-bottom:20px; clear:both; }
+	.productTitle2 { float:left; color:#000; font-size:2.5em; line-height:1.4; overflow:hidden; }
+	.productHelp2 { float:left; color:#333; font-size:1.6em; line-height:1.2; margin-top:10px; overflow:hidden; }
+}
+
+/* ความกว้าง ระหว่าง */
+@media screen and (min-width: 501px) and (max-width: 1023px)
+{
+	.productTN { width:300px; height:200px; margin-right:30px; float:left; overflow:hidden; }
+	.productTitle { color:#000; font-size:2.2em; line-height:1.2; overflow:hidden; }
+	.productHelp { color:#333; font-size:1.4em; line-height:1.2; margin-top:10px; overflow:hidden; }
+	
+	.productTN2 { width:50%; margin-right:30px; float:left; overflow:hidden; }
+	.productTitle2 { color:#000; font-size:3em; line-height:1.2; overflow:hidden; }
+	.productHelp2 { color:#333; font-size:1.8em; line-height:1.2; margin-top:20px; overflow:hidden; }
+}
+
+/* ความกว้าง ระหว่าง */
+@media screen and (min-width: 1024px) and (max-width: 1199px)
+{
+	.productArea { width:50%; float:left; }
+	.objectAreaL { float:left; width:98%; margin-left:0px; }
+	.objectAreaR { float:right; width:98%; margin-right:0px; }
+	.productTN { width:100%; margin-bottom:20px; clear:both; }
+	.productTitle { float:left; color:#000; font-size:2em; line-height:1.2; overflow:hidden; }
+	.productHelp { float:left; color:#333; font-size:1.3em; line-height:1.2; margin-top:10px; overflow:hidden; }
+	
+	.productTN2 { width:50%; margin-right:40px; float:left; overflow:hidden; }
+	.productTitle2 { color:#000; font-size:3em; line-height:1.2; overflow:hidden; }
+	.productHelp2 { color:#333; font-size:1.8em; line-height:1.2; margin-top:30px; overflow:hidden; }
+}
+
+/* ความกว้าง ไม่น้อยกว่า */
+@media screen and (min-width: 1200px)
+{
+	.productArea { width:50%; float:left; overflow:hidden; }
+	.objectAreaL { float:left; width:98%; }
+	.objectAreaR { float:right; width:98%;  }
+	.productTN { width:300px; height:200px; margin-right:20px; float:left; overflow:hidden; }
+	.productTitle { color:#000; font-size:1.6em; line-height:1.2; overflow:hidden; }
+	.productHelp { color:#333; font-size:1.2em; line-height:1.2; margin-top:10px; overflow:hidden; }
+	
+	.productTN2 { width:50%; margin-right:40px; float:left; overflow:hidden; }
+	.productTitle2 { color:#000; font-size:3.2em; line-height:1.2; overflow:hidden; }
+	.productHelp2 { color:#333; font-size:2.2em; line-height:1.3; margin-top:30px; overflow:hidden; }
+}
+
+/* ความกว้าง ไม่น้อยกว่า */
+@media screen and (min-width: 1600px)
+{
+	.productArea { width:50%; float:left; overflow:hidden; }
+	.objectAreaL { float:left; width:98%; }
+	.objectAreaR { float:right; width:98%;  }
+	.productTN { width:300px; height:200px; margin-right:20px; float:left; overflow:hidden; }
+	.productTitle { color:#000; font-size:2em; line-height:1.2; overflow:hidden; }
+	.productHelp { color:#333; font-size:1.3em; line-height:1.2; margin-top:10px; overflow:hidden; }
+	
+	.productTN2 { width:50%; margin-right:40px; float:left; overflow:hidden; }
+	.productTitle2 { color:#000; font-size:3.5em; line-height:1.4; overflow:hidden; }
+	.productHelp2 { color:#333; font-size:2.5em; line-height:1.2; margin-top:30px; overflow:hidden; }
+}

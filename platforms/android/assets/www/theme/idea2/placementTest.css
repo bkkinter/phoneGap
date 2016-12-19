@@ -1,0 +1,87 @@
+#placementTestPage #detailLeft { width:100%; clear:both; margin-bottom:30px; height:300px; padding:20px; }
+#placementTestPage #detailRight { width:100%; clear:both; padding-left:0px; margin-bottom:30px; }
+
+#placementTestPage #detailLeftFinish { width:100%; clear:both; padding-right:0px; margin-bottom:30px; }
+#placementTestPage #detailRightFinish { width:100%; clear:both; margin-bottom:30px; }
+#divR1 { height:300px; padding:30px; font-size:1.6em; line-height:1.2; color:#245992; }
+
+#textL1 { font-size:1.5em; line-height:1.2; color:#FFFFFF; }
+#textR1 { font-size:1.5em; line-height:1.2; }
+
+/* finish */
+#textL2 { font-size:2em; line-height:1.2; color:#000066; }
+#textR2 { font-size:1em; line-height:1.2; }
+#textL3 { font-size:1.3em; line-height:1.1; color:#555555; }
+
+.menuNow { font-size:2.5em; line-height:1; font-family:'TPKubua';
+			padding:15px; color:#000; cursor:pointer;
+			border: 1px dashed #999;
+			-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;
+			margin-bottom:20px;
+			}
+.menuNow:hover { color: #CC0000; background-color: #FFCCCC; border: 1px dashed #FF9999; }
+.menuIcon { overflow:hidden; float:left; margin-right:20px; }
+.menuText { overflow:hidden; margin-top:5px; }
+
+.boxIconStyle1 { margin-bottom:10px; padding:10px; border:1px dashed #999; cursor:pointer; clear:both; }
+.boxIconStyle1:hover { background-color:#FFDDDD; border:1px dashed #FF9999; }
+.boxIconStyle1 .boxIcon { float:left; width:80px; margin-right:15px; }
+.boxIconStyle1 .boxDetail { overflow:hidden; }
+.boxIconStyle1 .boxTitle { margin-bottom:10px; font-size:2em; line-height:1.2; color:#000; }
+.boxIconStyle1 .boxHelp { font-size:1em; line-height:1.2; color:#666; }
+
+.boxList { padding:8px; overflow:hidden; position:absolute; bottom:0px; right:0px; background-color:#DDD; font-size:1em; color:#666; }
+.boxList:hover { background-color:#666; color:#FFF; }
+
+.qArea { padding-bottom:30px; }
+.qIcon { width:50px; float:left; overflow:hidden; margin-right:20px; margin-top:5px; }
+.qHead { overflow:hidden; font-size:30px; line-height:1.2; margin-bottom:20px; font-family:'TPKubua'; color:#000066; }
+.qCouter{ overflow:hidden; float:right; font-size:2em; line-height:1.5; text-align:right; font-weight:bold; color:#000; }
+.qTitle { font-size:1.8em; line-height:1.2; font-family:'Tahoma'; color:#000; margin-bottom:30px; padding:15px; background-color:#CCE0EB; }
+.qAns { font-size:1.5em; line-height:1.2; padding:10px; border:1px dotted #999; margin-bottom:10px; cursor:pointer; color:#333333; }
+.qAns:hover { background-color:#FFCCCC; border:1px dotted #FF0000; color:#CC0000; }
+.qKey { position:absolute; width:30px; height:30px; background-color:#999; color:#FFF; text-align:center; padding-top:5px; }
+
+#pmtLevelIcon { position:absolute; margin-top:-10px; right:35px; cursor:pointer; }
+
+#placementTestPage { margin-top:20px; }
+
+/* ความกว้าง ไม่เกิน */
+@media screen and (max-width: 375px)
+{
+	.menuNow { font-size:2.2em; line-height:1; }
+}
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 769px)
+{
+#placementTestPage { margin-top:30px; }
+#placementTestPage #detailLeft { width:50%; overflow:hidden; clear:none; float:left; height:500px; padding:30px; }
+#placementTestPage #detailRight { width:50%; overflow:hidden; clear:none; padding-left:80px; }
+
+#placementTestPage #detailLeftFinish { width:60%; overflow:hidden; clear:none; float:left; padding-right:80px; }
+#placementTestPage #detailRightFinish { width:40%; overflow:hidden; clear:none; }
+#divR1 { height:200px; }
+
+#textL1 { font-size:2em; line-height:1.2; }
+#textR1 { font-size:1.8em; line-height:1.2; }
+
+#textL2 { font-size:2.5em; line-height:1.2; }
+#textR2 { font-size:1.2em; line-height:1.2; }
+#textL3 { font-size:1.3em; line-height:1.1; }
+
+.boxIconStyle1 { margin-bottom:15px; padding:15px; }
+.boxIconStyle1 .boxIcon { width:120px; margin-right:20px; }
+.boxIconStyle1 .boxTitle { font-size:2.2em; line-height:1.2; }
+.boxIconStyle1 .boxHelp { font-size:1.2em; line-height:1.2; }
+
+.qIcon { width:80px; }
+.qHead { font-size:45px; line-height:1.2; }
+.qCouter{ font-size:2.5em; line-height:1.5; }
+.qTitle { font-size:2.4em; line-height:1.4; padding:20px; }
+.qAns { font-size:1.8em; line-height:1.2; padding:15px; width:50%; }
+.qAns:hover { background-color:#FFCCCC; border:1px dotted #FF0000; color:#CC0000; }
+
+#pmtLevelIcon { float:left; position:static; margin-top:0px; padding-top:5px; margin-right:15px; overflow:hidden; }
+
+}

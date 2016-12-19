@@ -1,0 +1,23 @@
+#paymentCompletePage #detailLeft { width:100%; clear:both; margin-bottom:30px; }
+#paymentCompletePage #detailRight { width:100%; clear:both; padding-left:0px; margin-bottom:30px; }
+
+#contactDiv { margin-top:20px; }
+#contactName { font-size:1.2em; line-height:1; }
+#contactEmail { font-size:0.6em; line-height:1; }
+#contactTel { font-size:1em; line-height:1; }
+
+#payText2 { font-size:3em; line-height:1.2; }
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 769px)
+{
+#paymentCompletePage #detailLeft { width:50%; float:left; clear:none; }
+#paymentCompletePage #detailRight { width:50%; float:right; clear:none; padding-left:50px; }
+#paymentCompletePage { margin-top:100px; }
+
+#payText2 { font-size:4em; line-height:1.2; color:#333; }
+
+#contactName { font-size:1.5em; line-height:1; }
+#contactEmail { font-size:1em; line-height:1; }
+#contactTel { font-size:1em; line-height:1; }
+}

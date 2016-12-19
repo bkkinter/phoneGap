@@ -1,0 +1,104 @@
+body { background-color:#CCCCCC; color:#666; line-height:1.1; overflow-x: hidden; }
+
+#contentAll { padding-top:51px; padding-bottom:300px; }
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+#footer {
+	border-top:5px dotted #CCC;
+	/* background:#FFF; */
+	height:280px; 
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 500px)
+{
+	#contentAll { padding-bottom:250px;  }
+	#footer { height:230px; }
+}
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 700px)
+{
+	.container { width:98% !important; }
+	#contentAll { padding-top:57px; padding-bottom:200px;  }
+	#footer { height:180px; }
+}
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 1200px)
+{
+	.container { width:95% !important; }
+	#contentAll { padding-bottom:150px;  }
+	#footer { height:130px; }
+}
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 1600px)
+{
+	.container { width:85% !important; }
+}
+
+
+/* *************************************** ALERT ***************************************** */
+.alertObject { overflow:hidden; float:right; margin-right:5px; }
+.alertArea { position:absolute; z-index:11; float:right; right:115px; margin-top:5px; }
+.alertBox { position:absolute; z-index:11; margin-top:35px; }
+.alertBoxArrow { margin-left:10px; margin-top:3px; clear:both; }
+.alertBoxList { background-color:#666666; color:#FFF; padding:20px; clear:both; }
+.alertList { margin-bottom:20px; border-bottom:1px dashed #999; color:#FFF; cursor:pointer; z-index:12; }
+.alertList:hover { border-bottom:1px dashed #333; }
+.alertTitle { font-size:1.4em; line-height:1; color:#F99; }
+.alertText { font-size:18px; line-height:1; margin-bottom:20px; font-family:'tahoma'; margin-top:10px; }
+.alertPhoto { float:left; margin-right:15px; margin-bottom:15px; width:100px; height:100px; }
+
+.alertModalSenderPhoto { width:150px; height:150px;  }
+.alertTitleModal { font-size:2.5em; line-height:1; overflow:hidden; font-family:'supermarket'; margin-right:50px; color:#000; }
+.alertTitleModalName { color:#666; margin-top:5px; font-size:1.4em; }
+.alertTitleModalDate { color:#999; }
+.alertTextModal { font-size:1.8em; line-height:1.2; }
+
+/* ความกว้าง ไม่เกิน */
+@media screen and (max-width: 320px)
+{	
+	.Alert1 { display:inline; }
+	.Alert2 { display:none; }
+	.alertBoxList { width:270px; margin-left:-130px; }
+	.alertTitle { font-size:0.8em; line-height:1; color:#F99; }
+	.alertText { font-size:0.6em; line-height:1; }
+	.alertPhoto { width:70px; height:70px; }
+	
+	.alertModalSenderPhoto { width:80px; height:80px;  }
+	.alertTitleModal { font-size:1.5em; }
+	.alertTitleModalName { font-size:1em; }
+	.alertTextModal { font-size:1.2em; line-height:1; }
+}
+
+/* ความกว้าง ระหว่าง */
+@media screen and (min-width: 321px) and (max-width: 767px)
+{
+	.Alert1 { display:inline; }
+	.Alert2 { display:none; }
+	.alertBoxList { width:300px; margin-left:-150px; }
+	.alertTitle { font-size:1em; line-height:1; color:#F99; }
+	.alertText { font-size:0.8em; line-height:1; }
+	.alertPhoto { width:70px; height:70px; }
+}
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 768px)
+{
+	.Alert1 { display:none; }
+	.Alert2 { display:inline; }
+
+	.alertArea { width:80px; right:0px; margin-top:10px;  }
+	.alertBoxArrow { margin-right:0px; }
+	.alertBoxList { width:400px; margin-left:-200px; }
+}

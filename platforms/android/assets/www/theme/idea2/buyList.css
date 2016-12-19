@@ -1,0 +1,14 @@
+#buyListContent #detailLeft { width:100%; clear:both; margin-bottom:30px; }
+#buyListContent #detailRight { width:100%; clear:both; padding-left:0px; margin-bottom:30px; }
+
+.buyList { padding-top:20px; padding-bottom:20px; border-bottom:1px dashed #999; }
+
+.deleteNow { width:20px; height:20px; position:absolute; right:0px; margin-top:-20px; margin-right:5px; margin-left:20px; background:url(http://www.photojumbo.com/graphic/icon/delete-3-2.png) no-repeat; cursor:pointer; }
+.deleteNow:hover { background:url(http://www.photojumbo.com/graphic/icon/delete-3-1.png) no-repeat; }
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 1000px)
+{
+#buyListContent #detailLeft { width:50%; float:left; clear:none; }
+#buyListContent #detailRight { width:50%; float:right; clear:none; padding-left:50px; }
+}

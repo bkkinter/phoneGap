@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: 'TPKubua';
+    src: url('TPKubua/TPKubua.eot');
+    src: url('TPKubua/TPKubua.eot?#iefix') format('embedded-opentype'),
+         url('TPKubua/TPKubua.woff2') format('woff2'),
+         url('TPKubua/TPKubua.woff') format('woff'),
+         url('TPKubua/TPKubua.ttf') format('truetype'),
+         url('TPKubua/TPKubua.svg#TPKubua') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

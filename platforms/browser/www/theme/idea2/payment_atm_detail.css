@@ -1,0 +1,66 @@
+#atmDetailArea  #detailLeft { }
+#atmDetailArea  #detailRight { margin-top:60px; }
+
+.atmTitle { font-size:1.6em; font-family:'supermarket'; color:#000; display:none; margin-bottom:10px; }
+.atmTitleM { font-size:1.6em; font-family:'supermarket'; color:#000; margin-bottom:10px; }
+
+.atmDetail { font-size:1.2em; border:1px dashed #999; padding:15px; margin-top:5px; }
+.atmBank { color:#000; margin-bottom:5px; font-size:1.5em; }
+.atmSta { color:#666; }
+.atmStaData { color:#000; }
+.atmName { margin-top:15px; }
+.atmNameData { color:#000; font-weight:bold; font-size:1.2em; }
+.atmNumber { margin-top:15px; }
+.atmNumberData { color:#06C; font-weight:bold; font-size:1.8em; }
+
+.atmBack { margin-top:20px; font-size:1.7em; color:#999; border:2px dotted #999; padding:5px; text-align:center; cursor:pointer; font-family:'supermarket'; }
+.atmBack:hover { color:#333; border:2px dotted #333; }
+
+.atmRightArea { font-family:'supermarket'; }
+.atmR1 { font-size:1.5em; }
+.atmR2 { font-size:1.5em; margin-top:20px; }
+
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 700px)
+{
+#atmDetailArea  #detailRight { margin-top:50px; }
+
+.atmTitle { font-size:1.8em; display:block; }
+.atmTitleM { display:none; }
+
+.atmDetail { font-size:1.4em; overflow:auto; }
+.atmBank { color:#000; margin-bottom:5px; font-size:1.5em; }
+.atmSta { float:left; margin-right:15px; }
+.atmStaData { }
+.atmName { clear:left; float:left; margin-right:15px; margin-top:20px; }
+.atmNameData { float:left; margin-top:15px; }
+.atmNumber { clear:left; float:left; margin-right:15px; margin-top:20px; }
+.atmNumberData { float:left; margin-top:5px; }
+
+.atmBack { margin-top:20px; font-size:1.7em; color:#999; border:none; padding:0px; text-align:left; cursor:pointer; 
+background:url(/graphic/icon/arrow_mini_3L.gif) no-repeat left 8px; text-indent:25px;
+}
+.atmBack:hover { color:#333; border:none; }
+
+}
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 1024px)
+{
+#atmDetailArea  #detailLeft { padding-left:20px; }
+#atmDetailArea  #detailRight { padding-left:80px; margin-top:60px; }
+}
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 1200px)
+{
+.atmBack { margin-top:50px; font-size:2em; background-position:left 12px; }
+}
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 1600px)
+{
+#atmDetailArea  #detailLeft { padding-left:40px; padding-right:40px; }
+#atmDetailArea .atmRightArea { font-size:1.5em; line-height:1.3; margin-bottom:50px; }
+}

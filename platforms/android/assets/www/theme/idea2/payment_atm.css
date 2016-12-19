@@ -1,0 +1,48 @@
+.bankTitle { font-size:2em; font-family:'supermarket'; color:#000; margin-bottom:20px; }
+
+.bankPaper { margin-left:20px; }
+.bankAll { }
+
+.bankArea { float:left; overflow:auto; margin-right:15px; margin-bottom:15px; cursor:pointer; }
+/* .bankArea:hover { padding:5px; border:2px dotted #FF9999; background-color:#FFFFFF; } */
+
+.bankLogo { width:70px; }
+.bankText { font-size:1.5em; font-family:'supermarket'; display:none; }
+
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 360px)
+{
+.bankArea { margin-right:20px; margin-bottom:20px; }
+.bankLogo { width:100px; }
+}
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 400px)
+{
+.bankArea { margin-right:25px; margin-bottom:25px; }
+.bankLogo { width:115px; }
+}
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 700px)
+{
+.bankArea { margin-right:40px; margin-bottom:40px; }
+.bankLogo { width:150px; }
+}
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 1200px)
+{
+.bankArea { margin-right:50px; margin-bottom:50px; }
+.bankLogo { width:190px; }
+}
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 1600px)
+{
+.bankPaper { margin-left:50px; }
+.bankArea { margin-right:60px; margin-bottom:60px; }
+.bankLogo { width:250px; }
+}
+

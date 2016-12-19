@@ -1,0 +1,14 @@
+
+
+@font-face {
+    font-family: 'TPTankhun';
+    src: url('TPTankhun/TPTankhun.eot');
+    src: url('TPTankhun/TPTankhun.eot?#iefix') format('embedded-opentype'),
+         url('TPTankhun/TPTankhun.woff2') format('woff2'),
+         url('TPTankhun/TPTankhun.woff') format('woff'),
+         url('TPTankhun/TPTankhun.ttf') format('truetype'),
+         url('TPTankhun/TPTankhun.svg#TPTankhun') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

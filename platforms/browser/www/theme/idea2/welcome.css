@@ -1,0 +1,87 @@
+.widthFull { width:100% !important; padding-left:0px; padding-right:0px; }
+
+.welcome { display:none; font-family:'supermarket'; }
+.welcomeMobile { display:inline; font-family:'supermarket';   }
+
+.welcomeMobile .w1 { font-size:2em; color:#FF3300; line-height:1; font-weight:bolder; }
+.welcomeMobile .w2 { font-size:1.8em; margin-bottom:15px; color:#FFF; }
+.welcomeMobile .w3 { height:400px; background:url(http://www.fanjaa.com/graphic/img/app_ex_1.png) no-repeat center center; background-size:200px; }
+.welcomeMobile .w4 { font-size:1.8em; margin-top:15px; color:#FFF; }
+.welcomeMobile .w5 { overflow:hidden; float:left; width:33%; cursor:pointer; }
+.welcomeMobile .w6 { font-size:1.8em; color:#FFF; }
+
+.box-1 { font-family:'supermarket'; background-color:#999; }
+.box-1-content { padding:5px; padding-top:30px; background-image:url(http://www.fanjaa.com/graphic/img/free.png); background-position:right bottom; background-size:280px; background-repeat:no-repeat;  }
+.box-1 .text { font-size:2.5em; color:#000; }
+.box-1 .help { font-size:1.6em; color:#333; padding-bottom:220px; }
+
+
+.contactIndex { font-size:2em; font-family:'supermarket'; margin-top:30px; margin-bottom:30px; padding-bottom:10px; padding-top:20px; text-align:center; color:#000; }
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 700px)
+{
+
+.welcome { display:inline; }
+.welcomeMobile { display:none;   }
+
+.welcome .w1 { font-size:2.5em; color:#FF3300; line-height:1; font-weight:bolder; width:25%; position:absolute; margin-top:80px; }
+.welcome .w2 { font-size:1.8em; margin-bottom:15px; color:#FFF; width:25%; position:absolute; margin-top:180px; }
+/* .welcome .w3 { height:480px; background:url(http://www.fanjaa.com/graphic/img/app_ex_1.png) no-repeat center center; background-size:200px; } */
+.welcome .w3 { padding:50px; }
+.welcome .w3 img { display:block; height:450px; margin:auto; cursor:pointer; }
+.welcome .w4 { font-size:1.8em; color:#FFF; width:25%; position:absolute; right:5%; margin-top:-500px; }
+.imgOS { width:30%; position:absolute; right:3%; margin-top:-330px; }
+.welcome .w5 { overflow:hidden; float:left; width:33%; cursor:pointer; }
+.welcome .w6 { font-size:1.8em; color:#FFF; width:25%; position:absolute; right:5%; margin-top:-200px; }
+
+.box-1-content { background-size:350px; padding:0px; padding-top:40px; }
+.box-1 .text { font-size:3em; }
+.box-1 .help { font-size:1.8em; width:50%; padding-bottom:60px; }
+
+.contactIndex { font-size:2.5em; }
+
+
+}
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 1024px)
+{
+	.imgOS { margin-top:-320px; }
+	.box-1 .help { width:40%; padding-bottom:60px; }
+}
+
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 1200px)
+{
+.welcome .w1 { font-size:3.5em; margin-top:80px; }
+.welcome .w2 { font-size:2.5em; margin-top:220px; }
+.welcome .w3 { padding:60px; }
+.welcome .w3 img { height:500px; }
+.welcome .w4 { font-size:2.2em; right:6%; margin-top:-530px; }
+.imgOS { width:250px; position:absolute; right:13%; margin-top:-380px; }
+.welcome .w5 { overflow:hidden; float:left; width:33%; }
+.welcome .w6 { font-size:2.2em; color:#FFF; width:25%; position:absolute; right:6%; margin-top:-230px; }
+
+.box-1-content { background-size:400px; background-position:750px bottom; }
+.box-1 .text { }
+.box-1 .help { width:40%; padding-bottom:150px; }
+
+.contactIndex { font-size:3em; }
+}
+
+
+
+/* ความกว้าง ไม่ต่ำกว่า */
+@media screen and (min-width: 1600px)
+{
+.welcome .w1 { font-size:4em; width:30%; margin-top:100px; }
+.welcome .w2 { font-size:3em; margin-top:220px; }
+.welcome .w4 { right:10%; margin-top:-500px;  }
+.imgOS { right:18%; width:300px; margin-top:-360px; }
+.welcome .w6 { right:10%; margin-top:-180px; }
+
+.box-1-content { background-size:447px; background-position:1100px bottom; }
+.box-1 .help { width:40%; padding-bottom:200px; }
+}
